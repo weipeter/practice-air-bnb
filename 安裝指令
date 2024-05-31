@@ -1,0 +1,22 @@
+教學網址：https://www.youtube.com/watch?v=iWzUZiVoiR0&list=WL&index=12&t=6301s
+
+npm install @clerk/clerk-expo
+npx expo install expo-secure-store
+npx expo install expo-haptics
+npx expo install react-native-reanimated：要去babel.comfig.js設定plugin
+npx expo install react-native-maps：地圖
+npx expo install react-native-map-clustering：地區標點收縮
+
+bottomsheet(載兩個)
+npm i @gorhom/bottom-sheet@^4
+npx expo install react-native-gesture-handler
+
+
+npx expo install expo-image-picker
+npx expo install expo-blur
+npx expo install react-native-modern-datepicker:import時要像下方上面一行加入// @ts-ignore
+// @ts-ignore
+import DatePicker from 'react-native-modern-datepicker';
+備註：他package有問題，需要去module的react-native-modern-datepicker內的Header.js、DatePicker.js手動修改，可以參考現有的，也可以用ChatGPT改
+xxx.defaultProps版本問題會出錯
+
